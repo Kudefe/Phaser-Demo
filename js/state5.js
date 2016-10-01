@@ -1,13 +1,13 @@
 var demo = demo || {};
 
-demo.state1 = function() {};
+demo.state5 = function() {};
 
-demo.state1.prototype = {
+demo.state5.prototype = {
     preload: function() {
 
     },
     create: function() {
-        this.game.stage.backgroundColor = "#fb6904";
+        this.game.stage.backgroundColor = "#8124de";
         addChangeStateEventListeners();
     },
     update: function() {
